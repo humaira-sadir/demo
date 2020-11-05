@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.5.1.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <button>Hello</button>
+    <div class="container">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque saepe fuga error libero, natus, beatae
+            aliquid quod quibusdam temporibus nostrum voluptas aperiam praesentium expedita iste, accusantium sapiente
+            dolores consectetur tempora.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, omnis! Illum illo, voluptatibus
+            earum vero assumenda maiores repellat fugiat. Debitis quos perferendis aut dicta fuga aspernatur, temporibus
+            consequuntur ut labore.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas repellendus laudantium adipisci, earum atque
+            sunt! Quaerat distinctio sed quam unde eius ducimus sapiente eum, rem reprehenderit illo recusandae
+            repudiandae eligendi?</p>
+    </div>
+    <script>
+        $(document).ready(() => {
+            alert();
+            $("button").click(function () {
+                $(".container p:eq(2)").css("border", "10px solid green");
+            });
+        });
+
+
+
+    </script>
+</body>
+
+</html>
